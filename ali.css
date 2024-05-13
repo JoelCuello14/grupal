@@ -1,3 +1,4 @@
+/* imagen 500 PIXELES*/
 *{
     padding: 0;
     margin: 0;
@@ -39,13 +40,54 @@ nav a:hover{
     color: orange;
 }
 
-section{
+#section1{
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:rgba(255,159,249,1);
+    color: rgba(126,24,72,1);
+    padding: 20px;
+    text-align: center;
+}
+#section2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(199,91,194,1);
+    color: rgba(126,24,72,1);
+    text-align: center;
+}
+#section2 div ul li{
+    margin-left: 30px;
+    list-style: none;
+}
+#section3{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:rgba(119,31,125,1);
+    color: rgb(250, 192, 246);
+}
+#section3 div ul li{
+    margin-left: 30px;
+    list-style: none;
+}
 
+.imagen{
+    border-radius: 400px;
+    margin-left: 29px;
+}
+.imagen2{
+    border-radius: 400px;
+    margin-right: 29px;
+    margin-left: 20px;
 }
 
 #pie{
